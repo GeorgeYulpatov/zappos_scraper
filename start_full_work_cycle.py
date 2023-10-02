@@ -9,4 +9,4 @@ subprocess.call([os.sys.executable, "link_parser.py"])
 # он переходит по ссылкам из файла zappos_shoes_urls.txt , записывает
 # контент в таблицу zappos_{актуальная дата}.xlsx и собирает фото
 # размещая их по папкам согласно критерию бренд
-subprocess.call([os.sys.executable, "content_parser.py"])
+subprocess.call([os.sys.executable, "content_parser_n.py"])
